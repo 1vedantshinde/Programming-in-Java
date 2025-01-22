@@ -9,6 +9,7 @@ The main class instroduces a menu where the user can choose any of the following
 5. Fibonacci sequence (upto n terms)
 6. Mode of an Array
 7. Mean of an Array
+
 The Scanner class from the java.util package is used to take the input for the choice of operations.
 
 ## User Input Class
