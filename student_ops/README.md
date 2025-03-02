@@ -23,3 +23,20 @@ Method Name | Purpose
 `deleteStudent()` | Deletes a student using PRN, and prints a confirmation once deleted.
 `searchStudent()` | Searches and displays student details if it exists, error if not.
 `displayStudents()` | Displays all student records 
+
+##### Student
+he `Student` class represents an individual student with attributes like name, PRN, department, batch, and CGPA. It provides getter and setter methods to access and modify student details.
+| Method Name | Purpose |
+|------------|---------|
+| `Student(String, int, String, double, String)` | Constructor to initialize a student |
+| `getName()` | Returns student’s name |
+| `getPRN()` | Returns student’s PRN |
+| `getdept()` | Returns student’s department |
+| `getbatch()` | Returns student’s batch |
+| `getcgpa()` | Returns student’s CGPA |
+| `setName(String)` | Updates student’s name |
+| `setPRN(int)` | Updates student’s PRN |
+| `setdept(String)` | Updates student’s department |
+| `setbatch(String)` | Updates student’s batch |
+| `setcgpa(double)` | Updates student’s CGPA |
+| `display()` | Prints all student details |
