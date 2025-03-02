@@ -5,11 +5,11 @@
 ### Classes:
 ##### MENU
 The Menu class is responsible for letting the user enter the initial student details that are required for the rest of the code to work. It takes the details of 5 students and then displays the operations that can be performed on them. This includes the following:
->> Add Student Details
->> Edit Student Details
->> Delete Student Details
->> Search Student Details
->> Display Student Details
->> Exit
+1. Add Student Details
+2.  Edit Student Details
+3. Delete Student Details
+4. Search Student Details
+5. Display Student Details
+6. Exit
 
 Based on the input of the user, the corresponding function in the 'StudentOperations' class is called.
