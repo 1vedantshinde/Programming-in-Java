@@ -12,4 +12,4 @@ The Menu class is responsible for letting the user enter the initial student det
 5. Display Student Details
 6. Exit
 
-Based on the input of the user, the corresponding function in the 'StudentOperations' class is called.
+Based on the input of the user, the corresponding function in the `StudentOperations` class is called.
