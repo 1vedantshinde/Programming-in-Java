@@ -3,7 +3,7 @@
 > Problem: Design a menu-driven Java program to simulate a standard 52-card deck, allowing users to perform various operations. The program should support creating, shuffling, displaying, searching, and comparing cards. Users can pick specific cards, check for matching suits or ranks, deal random cards, and shuffle the deck. The menu should allow repeated interactions until the user chooses to exit.
 
 
-#### Main.java
+### Main.java
 The `Main.java` class acts as the front-end for the DeckOfCards program and displays the menu where the user can choose between the operations that can be performed on the deck of cards. These operations are:
 1. Display a single card based on index
 2. Shuffle Deck and Display
@@ -17,7 +17,7 @@ The `Main.java` class acts as the front-end for the DeckOfCards program and disp
 Based on the user input, the corresponding function in `Deck.java` is called.
 
 
-#### Deck.java
+### Deck.java
 The `Deck.java` class acts as the backend for the DeckOfCards program, handling the creation, management, and operations on a deck of 52 playing cards. It provides various methods to manipulate and interact with the deck, such as shuffling, dealing random cards, and comparing cards based on their suits or ranks. The deck is implemented using an `ArrayList<Card>` to store card objects.
 
 This class includes methods to:
@@ -27,7 +27,6 @@ This class includes methods to:
 4. Select random cards to check for matching suits or ranks
 5. Search for a specific card in the deck
 
-### **Function Table for `Deck.java`**
 | **Method Name**        | **Description** |
 |------------------------|----------------|
 | `Deck()`              | Constructor that initializes the deck and fills it with 52 cards. |
@@ -42,7 +41,7 @@ This class includes methods to:
 | `findCard(String rank, String suit)` | Searches for a specific card in the deck and prints if found. |
 
 
-#### Card.java
+### Card.java
 The `Card.java` class represents an individual playing card. Each card has two attributes:  
 - `rank` (e.g., "Ace", "2", "King")  
 - `suit` (e.g., "Hearts", "Diamonds")
