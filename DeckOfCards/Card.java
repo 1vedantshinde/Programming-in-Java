@@ -1,4 +1,5 @@
-// Card.java 
+// Card.java - represents each card
+//The this keyword refers to the current object in a method or constructor
 class Card {
     String rank;
     String suit;
