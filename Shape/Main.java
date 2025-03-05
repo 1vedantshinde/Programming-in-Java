@@ -58,7 +58,7 @@ public class Main {
                     double base = scanner.nextDouble();
                     System.out.print("Enter height: ");
                     height = scanner.nextDouble();
-                    shape = new EquilateralPyramid(base, height);
+                    shape = new Pyramid(base, height);
                     break;
                 default:
                     System.out.println("Invalid choice. Try again.");
