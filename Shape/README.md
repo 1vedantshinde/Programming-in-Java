@@ -29,16 +29,16 @@ Additionally, `Shape` includes a constructor that initializes essential properti
 
 
 ### Circle
-The Circle.java class represents a two-dimensional circle and extends the Shape class. It takes the radius as input and implements methods to compute its area and perimeter.
+The `Circle.java` class represents a two-dimensional circle and extends the `Shape` class. It takes the radius as input and implements methods to compute its area and perimeter.
 
-The calculateArea() method uses the formula:
+The `calculateArea()` method uses the formula:
 A = pi * r^2
 where r is the radius of the circle.
 
-The calculatePerimeter() method computes the circumference using:
+The `calculatePerimeter()` method computes the circumference using:
 P = 2 * pi * r
 
-Since a circle is a two-dimensional shape, the calculateVolume() method returns 0 as volume is not applicable.
+Since a circle is a two-dimensional shape, the `calculateVolume()` method returns 0 as volume is not applicable.
 
 
 ### Rectangle
@@ -55,10 +55,55 @@ Since a rectangle is a two-dimensional shape, the `calculateVolume()` method ret
 
 
 ### Square
+The `Square.java` class represents a two-dimensional square and extends the `Shape` class. It takes the side length as input and provides methods to compute its area and perimeter.
+
+The `calculateArea()` method calculates the area using:
+A = side * side
+
+The `calculatePerimeter()` method computes the perimeter using:
+P = 4 * side
+
+Since a square is a two-dimensional shape, the `calculateVolume()` method returns 0, as volume is not applicable.
+
 
 ### Sphere
+The `Sphere.java` class represents a three-dimensional sphere and extends the `Shape` class. It takes the radius as input and provides methods to compute its surface area and volume.
+
+The `calculateArea()` method calculates the surface area using:
+A = 4 * pi * r^2
+
+The `calculatePerimeter()` method returns 0, as a sphere does not have a perimeter.
+
+The `calculateVolume()` method calculates the volume using:
+V = (4/3) * pi * r^3
+
 
 ### Cylinder
+The `Cylinder.java` class represents a three-dimensional cylinder and extends the `Shape` class. It takes the radius and height as input and provides methods to compute its surface area, perimeter, and volume.
+
+The `calculateArea()` method calculates the surface area using:
+A = 2 * pi * r * (r + h)
+where r is the radius and h is the height of the cylinder.
+
+The `calculatePerimeter()` method computes the circumference of the circular base using:
+P = 2 * pi * r
+
+The `calculateVolume()` method calculates the volume using:
+V = pi * r^2 * h
 
 ### Pyramid
+The `Pyramid.java` class represents a three-dimensional equilateral pyramid and extends the `Shape` class. It takes the base length and height as input and provides methods to compute its surface area, perimeter, and volume.
+
+The `calculateArea()` method calculates the surface area using:
+A = base^2 + 2 * base * slant height
+where the slant height is computed as:
+slantHeight = sqrt((base/2)^2 + height^2)
+
+The `calculatePerimeter()` method computes the perimeter of the base using:
+P = 4 * base
+
+The `calculateVolume()` method calculates the volume using:
+V = (1/3) * base^2 * height
+
+
 
