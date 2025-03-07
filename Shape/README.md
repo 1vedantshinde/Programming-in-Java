@@ -107,3 +107,16 @@ V = (1/3) * base^2 * height
 
 
 
+---
+
+| **Class Name**   | **Extends**  | **Key Methods**                  | **Unique Aspects**                          |
+|------------------|-------------|----------------------------------|--------------------------------------------|
+| `Circle`        | `Shape`      | `calculateArea()`, `calculatePerimeter()`, `calculateVolume()` | Implements calculations for a 2D shape with a radius. |
+| `Rectangle`     | `Shape`      | `calculateArea()`, `calculatePerimeter()`, `calculateVolume()` | Uses two instance variables for dimensions. |
+| `Square`        | `Shape`      | `calculateArea()`, `calculatePerimeter()`, `calculateVolume()` | A specialized case of `Rectangle` with equal sides. |
+| `Sphere`        | `Shape`      | `calculateArea()`, `calculatePerimeter()`, `calculateVolume()` | Overrides `calculateVolume()`, no perimeter implementation. |
+| `Cylinder`      | `Shape`      | `calculateArea()`, `calculatePerimeter()`, `calculateVolume()` | Uses two instance variables (radius, height), has both area and volume. |
+| `Pyramid`       | `Shape`      | `calculateArea()`, `calculatePerimeter()`, `calculateVolume()` | Uses an additional computed value (slant height). |
+
+
+
