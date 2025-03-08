@@ -1,4 +1,6 @@
-
+//23070126121
+//Vedant Shinde
+//AIML B2
 public class Main {
     public static void main(String[] args) {
         MallardDuck md = new MallardDuck();
@@ -21,9 +23,5 @@ public class Main {
         rh.performSwim();
         rh.performFly();
         System.out.println("------------");
-
-
-
-
     }
 }
