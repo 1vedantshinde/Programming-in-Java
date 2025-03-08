@@ -77,8 +77,6 @@ This setup shows polymorphism and dynamic behavior assignment, making it easy to
 ---
 
 
-### Summary
-
 ### Summary Table  
 
 | Component           | Description |
