@@ -77,3 +77,18 @@ This setup shows polymorphism and dynamic behavior assignment, making it easy to
 ---
 
 
+### Summary
+
+### Summary Table  
+
+| Component           | Description |
+|--------------------|-------------|
+| **Main.java** | Entry point of the program. Creates different ducks and calls their behaviors (display, quack, fly, swim). Demonstrates polymorphism and dynamic behavior assignment. |
+| **MallardDuck.java** | Extends `Duck`. Uses `Quack()`, `Fly()`, and `SwimWithLegs()`. Represents a real mallard duck. |
+| **RedheadDuck.java** | Extends `Duck`. Uses `Quack()`, `Fly()`, and `SwimWithLegs()`. Represents a real redhead duck. |
+| **RubberDuck.java** | Extends `Duck`. Uses `Squeak()`, `NoFly()`, and `Floating()`. Represents a toy duck. |
+| **QuackBehaviour.java** | Interface for `quack()`. Implementations: `Quack` (real ducks), `Squeak` (rubber ducks). |
+| **FlyBehaviour.java** | Interface for `fly()`. Implementations: `Fly` (real ducks), `NoFly` (rubber ducks). |
+| **SwimBehaviour.java** | Interface for `swim()`. Implementations: `SwimWithLegs` (real ducks), `Floating` (rubber ducks). |
+
+
