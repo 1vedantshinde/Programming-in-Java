@@ -3,7 +3,6 @@ public class MallardDuck extends Duck{
         quackBehaviour = new Quack();
         swimBehaviour = new SwimWithLegs();
         flyBehaviour = new Fly();
-
     }
 
     @Override
