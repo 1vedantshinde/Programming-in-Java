@@ -8,7 +8,15 @@ public class Main {
         int choice;
 
         while (true) {
-            System.out.println("\n1. Add\n2. Display\n3. Search by PRN\n4. Search by Name\n5. Search by Position\n6. Update\n7. Delete\n8. Exit");
+            System.out.println("\n1. Add");
+            System.out.println("2. Display Details");
+            System.out.println("3. Search Details by PRN");
+            System.out.println("4. Search Details by Name");
+            System.out.println("5. Search Details by Index Position");
+            System.out.println("6. Update Details");
+            System.out.println("7. Delete Details");
+            System.out.println("8. Exit");
+
             System.out.print("Enter choice: ");
             choice = sc.nextInt();
             sc.nextLine();
