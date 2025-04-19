@@ -3,7 +3,6 @@ import java.util.*;
 public class StudentManager {
     private List<Student> students = new ArrayList<>();
 
-    // ADD student
     public void addStudent(Student s) throws DuplicatePRNException, InvalidPRNException {
         for (Student st : students) {
             if (st.getPrn().equals(s.getPrn())) {
@@ -16,7 +15,6 @@ public class StudentManager {
         students.add(s);
     }
 
-    // DISPLAY all students
     public void displayStudents() {
         if (students.isEmpty()) {
             System.out.println("No students available.");
@@ -25,7 +23,6 @@ public class StudentManager {
         }
     }
 
-    // SEARCH by PRN
     public Student searchByPrn(String prn) throws StudentNotFoundException {
         for (Student s : students) {
             if (s.getPrn().equals(prn)) return s;
@@ -33,7 +30,6 @@ public class StudentManager {
         throw new StudentNotFoundException("Student with PRN " + prn + " not found.");
     }
 
-    // SEARCH by Name
     public List<Student> searchByName(String name) throws InvalidNameException {
         if (name.length() < 2) throw new InvalidNameException("Name too short.");
         List<Student> found = new ArrayList<>();
@@ -44,12 +40,10 @@ public class StudentManager {
         return found;
     }
 
-    // SEARCH by Position
     public Student searchByIndex(int index) throws IndexOutOfBoundsException {
         return students.get(index);
     }
 
-    // UPDATE student
     public void updateStudent(String prn, String newName, String newDob, int newMarks)
             throws StudentNotFoundException, InvalidNameException {
         Student s = searchByPrn(prn);
@@ -59,7 +53,6 @@ public class StudentManager {
         s.setMarks(newMarks);
     }
 
-    // DELETE student
     public void deleteStudent(String prn) throws StudentNotFoundException {
         Student s = searchByPrn(prn);
         students.remove(s);
