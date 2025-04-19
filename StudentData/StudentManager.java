@@ -9,8 +9,8 @@ public class StudentManager {
                 throw new DuplicatePRNException("PRN already exists.");
             }
         }
-        if (s.getPrn().length() != 10) {
-            throw new InvalidPRNException("PRN must be 10 characters.");
+        if (s.getPrn().length() != 3) {
+            throw new InvalidPRNException("PRN must be 3 characters.");
         }
         students.add(s);
     }
