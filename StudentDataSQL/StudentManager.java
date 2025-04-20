@@ -9,8 +9,8 @@ import java.sql.Statement;
 public class StudentManager {
     
     public void addStudent(Student s) throws DuplicatePRNException, InvalidPRNException, SQLException {
-        if (s.getPrn().length() != 10)
-            throw new InvalidPRNException("PRN must be 10 characters.");
+        if (s.getPrn().length() != 3)
+            throw new InvalidPRNException("PRN must be 3 characters.");
 
         Connection con = DatabaseConnection.getConnection();
         PreparedStatement ps = con.prepareStatement("SELECT * FROM students WHERE prn = ?");
