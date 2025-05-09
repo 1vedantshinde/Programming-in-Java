@@ -1,8 +1,5 @@
 //Main.java
 
-//Vedant Shinde
-//PRN: 23070126121
-//Batch: AIML B2
 
 import java.util.*;
 
